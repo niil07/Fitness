@@ -321,10 +321,364 @@ nav{
     cursor: pointer;
 }
     
-.ex-right{
+/* BMI section css */
+
+.bmi{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.bmi-content{
 
 }
-    
-.ex-right img{
 
+.bmi-title{
+    text-align: center;
+}
+
+.bmi-title h2{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 56px;
+}
+
+.bmi-title p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.3px;
+    margin-top: 16px;
+}
+
+.bmi-calc{
+    background: #222;
+}
+
+.calc-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    margin-top: 48px;
+}
+
+.bmi-left{
+
+}
+
+.bmi-left h3{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 32px; 
+}
+
+.bmi-left table{
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-collapse: collapse;
+    margin-top: 48px;
+}
+
+.bmi-left table th{
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-collapse: collapse;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 18px 40px;
+}
+
+.bmi-left table td{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 18px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-collapse: collapse;
+}
+
+.bmi-right{
+
+}
+
+.bmi-right h3{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.bmi-right p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin: 12px 0px 24px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 12px;
+}
+
+form input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    padding: 16px 40px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    line-height: 22px;
+}
+
+form input::placeholder{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form select{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    padding: 16px 40px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    line-height: 22px;
+}
+
+form select option{
+    background-color: #393939;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+#activity{
+    grid-column: span 2;
+}
+
+.calculate{
+    border-radius: 42px;
+    background: #E6533C;
+    color: #fff;
+    padding: 16px 64px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border: none;
+    cursor: pointer;
+    margin-top: 18px;
+}
+
+/* Meet section css */
+/* Meet section css */
+.meet{
+    width: 100%;
+    padding: 100px 0px;
+}
+    
+.meet-title{
+    text-align: center;
+}
+    
+.meet-title h2{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 56px; 
+}
+    
+.meet-title p{
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+    
+.meet-gallery{
+    padding: 24px;
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto); 
+    gap: 24px; 
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.m-item{
+    position: relative;
+}
+    
+
+
+.m-item img{
+    width: 100%; 
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 12px;
+}
+
+.title{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+    
+
+    
+.title h5{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+}
+    
+.title span{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+/* Purchase section css */
+.purchase{
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.p-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.p-title{
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.p-title h3{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 56px;
+}
+    
+.p-item{
+    background: darkgrey;
+    padding: 32px;
+    border-radius: 16px;
+    text-align: center;
+}
+    
+.p-item img{
+    height: 272px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+    
+.p-item h4{
+    font-size: 24px;
+    color: #000;
+    font-weight: 800;
+    margin: 12px 0px;
+}
+    
+
+
+.p-item button{
+    padding: 16px 32px;
+    border-radius: 8px;
+    color: #e6533c;
+    background: none;
+    font-size: 26px;
+    font-style: italic;
+    border: none;
+    background: black;
+    cursor: pointer;
+}
+
+/* Footer section css */
+footer{
+    width: 100%;
+    padding: 40px 0px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.f-start{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0px;
+}
+
+.f-left{
+
+}
+
+.f-left h1{
+    color: #E6533C;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 84px;
+}
+
+.f-left p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.3px;
+    margin-top: 16px;
+}
+
+footer h4{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 16px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li a{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    cursor: pointer;
+   
+}
+
+hr{
+    border: none;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.10);
+    margin: 16px 0px;
+    }
+
+.f-end{
+    text-align: center;
+}
+    
+.f-end span{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
 }
