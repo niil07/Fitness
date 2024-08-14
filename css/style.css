@@ -221,7 +221,7 @@ nav{
 /* Habit section css */
 .habit{
     width: 100%;
-    padding: 40px 0px;
+    padding: 80px 0px;
 }
 
 .h-title{
@@ -273,4 +273,58 @@ nav{
     font-weight: 400;
     line-height: 18px;
     letter-spacing: 0.3px;
+}
+
+/* Extra Mile section css */
+.ex-mile{
+    width: 100%;
+    padding: 80px 0px;
+}
+    
+.ex-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    border-radius: 18px;
+    background: #222;
+}
+    
+.ex-left{
+
+}
+    
+.ex-left h2{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 56px; /* 57.6px */
+}
+    
+.ex-left p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.3px;
+    margin: 32px 0px;
+}
+    
+.ex-left button{
+    border-radius: 42px;
+    background: #E6533C;
+    color: #fff;
+    padding: 16px 64px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border: none;
+    cursor: pointer;
+}
+    
+.ex-right{
+
+}
+    
+.ex-right img{
+
 }
