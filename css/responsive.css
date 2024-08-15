@@ -1,0 +1,207 @@
+/* Media Queries for Mobile Devices (max-width: 576px) */
+@media (max-width: 576px) {
+
+    /* Header */
+    header {
+        padding: 20px;
+    }
+
+    nav{
+        padding: 20px 0px;
+    }
+    .nav-right ul {
+        display: none;
+    }
+
+    .dropdown a{
+        display: block;
+    }
+
+    /* Banner */
+    .banner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .banner-left {
+        flex-basis: 100%;
+        padding: 20px;
+    }
+    .banner-left h1 {
+        font-size: 36px;
+        line-height: 24px;
+        text-align: left;
+    }
+    .banner-left h1 span {
+        font-size: 60px;
+    }
+    .banner-left p {
+        text-align: left;
+        font-size: 16px;
+        margin: 24px 0;
+    }
+    
+    .banner-left button {
+        padding: 12px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .bn-img{
+        position: relative;
+    }
+    
+    .bn-text1, .bn-text2{
+        position: absolute;
+    }
+
+    .bn-text1{
+        padding: 12px;
+        width: 40%;
+        bottom: -160px;
+        left: 20px;
+        
+    }
+
+    .bn-text2{
+        padding: 12px;
+        right: 24px;
+        top: 537px;
+    }
+
+    .text1-right{
+        text-align: left;
+    }
+
+    .text1-right h6{
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .text1-right p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .bn-text1 span{
+        height: 25px;
+        width: 25px;
+    }
+
+    .bn-text2 h4{
+        font-size: 30px;
+        line-height: 30px;
+
+    }
+
+    .bn-text2 p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    /* Habit Section */
+
+    .habit{
+        padding: 20px;
+    }
+
+    .h-title h3{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .h-part {
+        flex-direction: column;
+        column-gap: 12px;
+    }
+    .h-box {
+        margin-bottom: 36px;
+    }
+
+    /* Extra Mile Section */
+    .ex-mile{
+        padding: 20px;
+    }
+
+    .ex-content {
+        flex-direction: column;
+        padding: 30px;
+        row-gap: 32px;
+    }
+    .ex-left h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .ex-left p {
+        font-size: 14px;
+        margin: 20px 0px;
+    }
+
+    .ex-left button{
+        width: 100%;
+    }
+
+    .ex-right{
+
+    }
+
+    .ex-right img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* BMI Section */
+    .calc-content {
+        flex-direction: column;
+    }
+    form {
+        grid-template-columns: 1fr;
+    }
+    form input, form select {
+        width: 100%;
+    }
+    .bmi-left table {
+        font-size: 12px;
+    }
+    .bmi-right p {
+        font-size: 12px;
+    }
+
+    /* Meet Section */
+    .meet-gallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .m-item img {
+        height: 200px;
+    }
+
+    /* Purchase Section */
+    .p-content {
+        grid-template-columns: 1fr;
+    }
+    .p-item {
+        padding: 16px;
+    }
+    .p-item h4 {
+        font-size: 20px;
+    }
+    .p-item button {
+        font-size: 20px;
+    }
+
+    /* Footer */
+    .f-start {
+        flex-direction: column;
+        align-items: center;
+    }
+    .f-left h1 {
+        font-size: 36px;
+    }
+    footer ul li a {
+        font-size: 18px;
+    }
+    .f-end span {
+        font-size: 16px;
+    }
+}
