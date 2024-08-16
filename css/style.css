@@ -435,6 +435,8 @@ form input{
     font-weight: 400;
     border: none;
     line-height: 22px;
+    width: 100%; 
+    box-sizing: border-box;
 }
 
 form input::placeholder{
@@ -452,6 +454,8 @@ form select{
     font-weight: 400;
     border: none;
     line-height: 22px;
+    width: 100%; 
+    box-sizing: border-box;
 }
 
 form select option{
@@ -474,9 +478,10 @@ form select option{
     border: none;
     cursor: pointer;
     margin-top: 18px;
+    width: 100%;
 }
 
-/* Meet section css */
+
 /* Meet section css */
 .meet{
     width: 100%;
@@ -652,6 +657,10 @@ footer h4{
 
 footer ul {
     list-style: none;
+}
+
+footer ul li{
+    margin-bottom: 8px;
 }
 
 footer ul li a{

@@ -151,53 +151,174 @@
     }
 
     /* BMI Section */
+
+    .bmi{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .bmi-title{
+        text-align: left;
+        padding: 20px;
+    }
+
+    .bmi-title h2{
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .bmi-title p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .bmi-left h3, .bmi-left table th{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .bmi-left table th{
+        padding: 14px 22px;
+        text-align: left;
+    }
+
+    .bmi-left table td{
+        font-size: 14px;
+        line-height: 16px;
+        padding: 14px 22px;
+    }
+
+    .bmi-left table{
+        margin: 32px 0px ;
+    }
+
     .calc-content {
         flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 24px;
+        padding: 28px 20px;
     }
+
+    .bmi-right h3{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .bmi-right p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
     form {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
+
     form input, form select {
-        width: 100%;
+        padding: 12px; 
+        font-size: 14px;
     }
-    .bmi-left table {
-        font-size: 12px;
+
+    #activity {
+        grid-column: span 2;
     }
+
+    .calculate {
+        padding: 12px 32px; 
+        font-size: 16px;
+    }
+    
     .bmi-right p {
         font-size: 12px;
     }
 
     /* Meet Section */
+
+    .meet{
+        padding: 20px;
+    }
+
+    .meet-title h2{
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .meet-title p{
+        font-size: 14px;
+        line-height: 24px;
+        margin: 16px 0px;
+    }
+
     .meet-gallery {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
-    .m-item img {
-        height: 200px;
+
+    .m-item img{
+        height: 272px;
+    }
+    
+    .title h5{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .title span{
+        font-size: 12px;
+        line-height: 14px;
     }
 
     /* Purchase Section */
+    .purchase{
+        padding: 20px;
+    }
     .p-content {
         grid-template-columns: 1fr;
     }
+
+    .p-title h3{
+        font-size: 32px;
+        line-height: 38px;
+    }
     .p-item {
         padding: 16px;
+    }
+
+    .p-item img{
+        height: 200px;
     }
     .p-item h4 {
         font-size: 20px;
     }
     .p-item button {
+        padding: 12px 24px;
         font-size: 20px;
     }
 
     /* Footer */
+
+    footer{
+        padding: 20px 0px;
+    }
+
+    .f-content{
+        padding: 0px 20px;
+    }
+
     .f-start {
         flex-direction: column;
-        align-items: center;
+        row-gap: 24px;
+        padding: 20px 0px;
     }
-    .f-left h1 {
-        font-size: 36px;
+
+    .f-left h1{
+        font-size: 56px;
+        line-height: 68px;
     }
+
+    footer ul li{
+        margin-bottom: 6px;
+    }
+    
     footer ul li a {
         font-size: 18px;
     }
