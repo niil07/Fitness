@@ -25,7 +25,7 @@
     }
     .banner-left {
         flex-basis: 100%;
-        padding: 20px;
+        padding: 20px 0px;
     }
     .banner-left h1 {
         font-size: 36px;
